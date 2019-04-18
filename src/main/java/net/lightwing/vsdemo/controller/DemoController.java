@@ -15,6 +15,7 @@ public class DemoController{
     public Map<String,Object> Hello(){
         Map<String,Object> map = new HashMap<>();
         map.put("name", "Visual Studio Code");
+        map.put("data", "nothing");
         return map;
     }
 }
